@@ -8,9 +8,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <net.kwmt27.characterdisplayanimationsample.TypeWriterTextView
+        android:id="@+id/typeWriteTextView"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/startTypeWriterButton"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/typeWriteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="タイプライター開始"/>
 
 </RelativeLayout>
